@@ -252,27 +252,21 @@ h3 {
 }
 
 .temoin-col {
-    flex-basis: 40%;
+    flex-basis: 44%;
     border-radius: 10px;
     margin-bottom: 5%;
-    text-align: left;
-    padding: 25px;
-    cursor: pointer;
-    display: flex;
-    width: 400px;
-    height: 225px;
-
 }
 
 .temoin-col iframe {
-    margin-right: 30px;
-    margin-left: 5px;
+    border-radius: 10px;
 }
 
 @media(max-width: 700px) {
     .temoin-col iframe{
         margin-right: 15px;
         margin-left: 0px;
+        max-width: 100%;
+
     }
 }
 
@@ -427,23 +421,18 @@ h3 {
     flex-basis: 44%;
     border-radius: 10px;
     margin-bottom: 5%;
-    text-align: left;
-    padding: 25px;
-    cursor: pointer;
-    display: flex;
-    width: 400px;
-    height: 225px;
 }
 
 .presentation-col iframe {
-    margin-right: 30px;
-    margin-left: 5px;
+    border-radius: 10px;
+    margin: 10px;
 }
 
 @media(max-width: 700px) {
     .presentation-col iframe{
         margin-right: 15px;
         margin-left: 0px;
+        max-width: 100%;
     }
 }
 
