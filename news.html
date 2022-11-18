@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="with=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="laplateforme.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/fontawesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>LaPlateforme.io</title>
+</head>
+<body>
+  <section class="sub-header">
+    <nav>
+      <a href="accueil.html"><img src="images/logo.png"></a>
+      <div class="nav-links" id="navLinks">
+        <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="qui-sommes-nous.html">Qui sommes-nous ?</a></li>
+            <li><a href="plateforme-start.html">Cursus</a></li>
+            <li><a href="aws-restart.html">Spécialisations</a></li>
+            <li><a href="">Entreprise</a></li>
+            <li><a href="">Kids</a></li>
+            <li><a href="news.html">News</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+      </div>
+      <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <h1>News</h1>
+  </section>
+
+<!-- Page News -->
+
+<section class="news-content">
+
+    <div class="row">
+        <div class="blog-left">
+            <img src="https://i0.wp.com/laplateforme.io/wp-content/uploads/2022/11/IMG_4897.webp?resize=400%2C250&ssl=1">
+            <h2>“Réseaux sociaux du futur et décentralisés” : les résultats du lab sont en ligne !</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt et quis omnis obcaecati, consequuntur dolores explicabo dolorem sunt deleniti tenetur alias fugiat. A debitis doloremque tempora tempore dolore aliquam facere.</p>
+            <br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis est eos necessitatibus eum facere cum nulla nisi quisquam vitae minima. Ducimus architecto culpa possimus placeat, obcaecati quod. Dolorem, officiis dolores!</p>
+            <br>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo, asperiores inventore? Similique eius dolor non, recusandae vero repellat tempora atque iure soluta vitae optio numquam voluptas fuga sed harum doloremque!</p>
+            <br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur praesentium dolore tempora vero est magni voluptas perspiciatis accusamus eaque voluptatem, molestiae saepe odio quae quibusdam. Facilis tempora ex velit in?</p>
+
+            <div class="comment-box">
+
+                <h3>Laissez un commentaire</h3>
+
+                <form class="commentaire">
+                    <input type="text" placeholder="Nom">
+                    <input type="text" placeholder="Mail">
+                    <textarea rows="5" placeholder="Votre commentaire"></textarea>
+                    <button type="submit" class="hero-btn-commentaire">Commenter</button>
+                </form>
+
+            </div>
+        </div>
+        <div class="blog-right">
+            <h3>Catégories</h3>
+            <div>
+                <span>Développement Web</span>
+                <span>21</span>
+            </div>
+            <div>
+                <span>Cybersécurité</span>
+                <span>13</span>
+            </div>
+            <div>
+                <span>Evènements</span>
+                <span>5</span>
+            </div>
+            <div>
+                <span>Développement Logiciel</span>
+                <span>2</span>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Contact -->
+
+<section class="cta">
+  <h1>Contactez-nous !</h1>
+  <a href="" class="hero-btn">Contact</a>
+</section>
+
+<!------JavaScript toggle menu------>
+<script>
+
+var navLinks = document.getElementById("navLinks");
+
+function showMenu() {
+  navLinks.style.right = "0";
+}
+function hideMenu () {
+  navLinks.style.right = "-200px";
+}
+
+</script>
+
+</body>
+</html>

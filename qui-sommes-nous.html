@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="with=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="laplateforme.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/fontawesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>LaPlateforme.io</title>
+</head>
+<body>
+  <section class="sub-header">
+    <nav>
+      <a href="accueil.html"><img src="images/logo.png"></a>
+      <div class="nav-links" id="navLinks">
+        <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="qui-sommes-nous.html">Qui sommes-nous ?</a></li>
+            <li><a href="plateforme-start.html">Cursus</a></li>
+            <li><a href="aws-restart.html">Spécialisations</a></li>
+            <li><a href="">Entreprise</a></li>
+            <li><a href="">Kids</a></li>
+            <li><a href="news.html">News</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+      </div>
+      <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <h1>Qui sommes-nous ?</h1>
+  </section>
+
+<!-- Qui sommes-nous ? contenu -->
+
+<section class="about">
+    <div class="row">
+        <div class="about-col">
+            <h1>Club Top 20 et Grande Ecole du Numérique</h1>
+            <p>La Plateforme_ est une école du numérique et des nouvelles technologies co-fondée avec le Club Top 20 réunissant les grandes entreprises de la Métropole Aix Marseille. Elle comprend une offre de formations diversifiées destinées à former des codeurs et développeurs web, des experts en sécurité, des ingénieurs spécialisés en Intelligence Artificielle, et des cadres d’entreprises au travers de cycles de formations continues. <br> La Plateforme_ est membre du programme Grande Ecole du Numérique. Elle est soutenue par de grandes entreprises du territoire comme le Crédit Agricole Alpes Provence, par la Région Sud, le Département des Bouches du Rhône et la Métropole Aix Marseille Provence.</p>
+        </div>
+        <div class="about-col">
+            <img src="images/about2.jpg">
+        </div>
+    </div>
+</section>
+
+<!-- Nos partenaires -->
+
+<section class="partenaires">
+        <h1>Nos Partenaires</h1>
+        <img src="images/partenaires.PNG">    
+</section>
+
+  <!---Certifications--->
+
+  <Section class="certification">
+    <h1>Nos certifications</h1>
+    <div class="row">
+      <div class="certification-col">
+        <h3>Qualiopi</h3>
+        <p>La Plateforme Marseille a obtenu la certification qualité depuis le 18 septembre 2020 au titre de la catégorie des actions de formation. <br> La Plateforme Formation a obtenu la certification qualité depuis le 23 mai 2022 au titre des catégories des actions de formation, bilans de compétences, actions de formation par apprentissage.</p>
+      </div>
+      <div class="certification-col">
+        <h3>April</h3>
+        <p>La Plateforme_ est membre de l’AFCDP. <br> L’AFCDP est L’Association Française des Correspondants à la protection des Données à caractère Personnel. Elle regroupe les Délégués à la protection des données (DPO) et tous les professionnels de la conformité, RGPD, CNIL.</p>
+      </div>
+      <div class="certification-col">
+        <h3>AFCDP</h3>
+        <p>La formation est accessible aux personnes handicapées. L’école est équipée d’un ascenseur pour accéder aux étages. Une place de parking est prévue à proximité l’école.</p>
+      </div>
+
+      <div class="certification-col">
+        <h3>#accessibleatous</h3>
+        <p>La sécurité informatique vous passionne ? Découvrez nos 3 programmes de formation pour devenir un expert de la Sécurité des Systèmes d’Information.</p>
+      </div>
+    </div>
+  </Section>
+
+  <!--Présentation-->
+
+  <section class="presentation">
+    <h1>Présentation</h1>
+    <div class="row">
+      <div class="presentation-col">
+        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/ayqMxjEtYNk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>      </div>
+      <div class="presentation-col">
+        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/HSLFwNbZdgc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+    </div>
+  </section>
+  
+
+<!-- Contact -->
+
+<section class="cta">
+  <h1>Contactez-nous !</h1>
+  <a href="" class="hero-btn">Contact</a>
+</section>
+
+<!------JavaScript toggle menu------>
+<script>
+
+var navLinks = document.getElementById("navLinks");
+
+function showMenu() {
+  navLinks.style.right = "0";
+}
+function hideMenu () {
+  navLinks.style.right = "-200px";
+}
+
+</script>
+
+</body>
+</html>

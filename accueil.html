@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="with=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="laplateforme.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/fontawesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>LaPlateforme.io</title>
+</head>
+<body>
+  <section class="header">
+    <nav>
+      <a href="accueil.html"><img src="images/logo.png"></a>
+      <div class="nav-links" id="navLinks">
+        <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="qui-sommes-nous.html">Qui sommes-nous ?</a></li>
+            <li><a href="plateforme-start.html">Cursus</a></li>
+            <li><a href="aws-restart.html">Spécialisations</a></li>
+            <li><a href="">Entreprise</a></li>
+            <li><a href="">Kids</a></li>
+            <li><a href="news.html">News</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+      </div>
+      <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+
+<div class="text-box">
+    <h1>La Plateforme le campus méditerranéen du numérique !</h1>
+    <p>Des parcours frais de scolarité à zéro euros, ouverts à tous les talents, sans conditions de ressources et de diplômes. <br> Un lieu de rencontre entre entreprises et apprenants pour le bénéfice de tous !</p>
+    <p>Le digital c’est maintenant !</p>
+    <a href="" class="hero-btn">Inscription</a>
+    <p><em>* sur dossier et test d’admission. Titres de formations homologués par l’Etat, référencés au RNCP</em></p>
+</div>
+  </section>
+
+  <!---Cursus--->
+
+  <Section class="cursus">
+    <h1>Se former aux métiers du numérique</h1>
+    <p>Nos formations</p>
+    <div class="row">
+      <div class="cursus-col">
+        <h3>Web Coding</h3>
+        <p>Quel que soit votre âge, formez-vous gratuitement en 1 ou 2 ans aux métiers du développement web / mobile, grâce à un modèle pédagogique unique qui s’adapte aux besoins de chacun. Donnez vous la chance de faire du numérique votre avenir.</p>
+      </div>
+      <div class="cursus-col">
+        <h3>Intelligence Artificielle IA</h3>
+        <p>Passionné de data, mordu d’algo ? Rejoignez l’école de l’Intelligence Artificielle qui propose deux cursus de haut niveau destinés à former de futurs experts en IA et data. La Plateforme_ propose également en partenariat avec l’école Centrale de Marseille, un Post Graduate en Intelligence Artificielle.</p>
+      </div>
+      <div class="cursus-col">
+        <h3>Cyber Security</h3>
+        <p>La sécurité informatique vous passionne ? Découvrez nos 3 programmes de formation pour devenir un expert de la Sécurité des Systèmes d’Information.</p>
+      </div>
+    </div>
+  </Section>
+
+  <!--Transformation-->
+
+  <section class="transformation">
+    <h1>Accélérez votre transformation numérique</h1>    
+    <div class="row">
+      <div class="transformation-col">
+        <img src="/images/recrutement.jpg">
+        <div class="layer">
+          <h3>Recrutez nos talents du numérique</h3>
+        </div>
+      </div>
+      <div class="transformation-col">
+        <img src="/images/formation.jpg">
+        <div class="layer">
+          <h3>Vous former au numérique</h3>
+        </div>
+      </div>
+      <div class="transformation-col">
+        <img src="/images/boost.jpg">
+        <div class="layer">
+          <h3>Accélérez votre innovation</h3>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<!--Témoignage-->
+
+<section class="temoin">
+  <h1>Ils témoignent</h1>
+  <p>Découvrez ce que nos apprenants, les grands acteurs de l’économie de la Métropole Aix Marseille Provence et la French Tech pensent de La Plateforme</p>
+  <div class="row">
+    <div class="temoin-col">
+      <iframe width="120%" height="100%" src="https://www.youtube.com/embed/sDkjt3UTukg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <div class="temoin-col">
+      <iframe width="120%" height="100%" src="https://www.youtube.com/embed/8U4CCAFLqEs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>    
+    </div>
+  </div>
+</section>
+
+<!--Contact-->
+
+<section class="cta">
+  <h1>Contactez-nous !</h1>
+  <a href="" class="hero-btn">Contact</a>
+</section>
+
+
+<!------JavaScript toggle menu------>
+<script>
+
+var navLinks = document.getElementById("navLinks");
+
+function showMenu() {
+  navLinks.style.right = "0";
+}
+function hideMenu () {
+  navLinks.style.right = "-200px";
+}
+
+</script>
+
+</body>
+</html>

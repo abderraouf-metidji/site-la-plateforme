@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="with=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="laplateforme.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/fontawesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>LaPlateforme.io</title>
+</head>
+<body>
+  <section class="sub-header">
+    <nav>
+      <a href="accueil.html"><img src="images/logo.png"></a>
+      <div class="nav-links" id="navLinks">
+        <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="qui-sommes-nous.html">Qui sommes-nous ?</a></li>
+            <li><a href="plateforme-start.html">Cursus</a></li>
+            <li><a href="aws-restart.html">Spécialisations</a></li>
+            <li><a href="">Entreprise</a></li>
+            <li><a href="">Kids</a></li>
+            <li><a href="news.html">News</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+      </div>
+      <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <h1><span class="start-color"> La Plateforme/start </span> <br> En 1 an, devenez un professionnel du numérique !</h1>
+    <br>
+    <a href="button" class="hero-btn">Inscription</a>
+  </section>
+
+
+<!-- Start présentation-->
+
+<Section class="start">
+    <h1>12 mois pour devenir un professionnel du numérique</h1>
+    <h3>A qui s’adresse la formation ?</h3>
+    <p>La formation est ouverte à tous. Elle s’adresse particulièrement aux personnes souhaitant accéder à des postes dans le domaine du numérique et ne pouvant pas se permettre de suivre un « long » cursus de formation (3-5 ans). <br>
+    (personnes souhaitant accéder rapidement à l’emploi, +25ans, éloignés de l’emploi, inscrits au pôle emploi).</p>
+    <p>La formation dure 12 mois, elle est totalement prise en charge financièrement. Vous serez rémunéré durant les 6 mois d’alternance.</p>
+    <img src="https://i0.wp.com/laplateforme.io/wp-content/uploads/2022/06/student-start-concentrate.webp?w=1080&ssl=1">
+    <h3>Descriptif de la formation</h3>
+    <p>La formation commence par un « starter » de 3 mois (septembre – novembre) durant lequel 4 thèmes sont abordés :</p> 
+    <li>Hardware : Quels sont les composants d’un ordinateur ? Comment fonctionnent-ils ? Quels sont leurs relations ?</li>
+     <li>Système : Installation de machines virtuelles, systèmes d’exploitations, linux, lignes de commandes, installation de services</li>
+    <li>Réseau : Fonctionnement des réseaux, communication entre périphériques, adressage IP
+    </li>
+    <li>Programmation : Logique du code, algorithmie</li>
+    </p>
+    <p>A l’issue du starter vous pourrez choisir parmi les 3 spécialisations proposées :</p> 
+    <li>Développement Web</li>
+     <li>Réseaux et téléphonie IP</li>
+    <li>Maintenance et dépannage Informatique</li>
+    </p>
+    <a href="button" class="start-btn">Inscription</a>
+  </section>
+
+  </Section>
+
+  <!-- Start alternance-->
+
+
+<Section class="cursus">
+    <h1>Nos formations d’apprentissage</h1>
+    <div class="row">
+      <div class="cursus-col">
+        <p><strong>3 mois intenses</strong> (décembre – février) permettent de monter en compétence sur la spécialisation choisie afin d’intégrer une entreprise dès le mois de mars.</p>
+      </div>
+      <div class="cursus-col">
+        <p><strong>L’alternance dure 6 mois</strong> (mars – août) au rythme de 60% en entreprise, 40% en centre de formation.</p>
+      </div>
+      <div class="cursus-col">
+        <p><strong>A l’issue de la formation</strong>, vous pourrez choisir de continuer à exercer votre métier au sein d’une entreprise ou poursuivre votre formation au sein du Bachelor IT.</p>
+      </div>
+    </div>
+  </Section>
+
+  
+<!-- Contact -->
+
+<section class="cta">
+  <h1>Contactez-nous !</h1>
+  <a href="" class="hero-btn">Contact</a>
+</section>
+
+<!------JavaScript toggle menu------>
+<script>
+
+var navLinks = document.getElementById("navLinks");
+
+function showMenu() {
+  navLinks.style.right = "0";
+}
+function hideMenu () {
+  navLinks.style.right = "-200px";
+}
+
+</script>
+
+</body>
+</html>

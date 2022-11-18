@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="with=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="laplateforme.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/fontawesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>LaPlateforme.io</title>
+</head>
+<body>
+  <section class="sub-header">
+    <nav>
+      <a href="accueil.html"><img src="images/logo.png"></a>
+      <div class="nav-links" id="navLinks">
+        <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="qui-sommes-nous.html">Qui sommes-nous ?</a></li>
+            <li><a href="plateforme-start.html">Cursus</a></li>
+            <li><a href="aws-restart.html">Spécialisations</a></li>
+            <li><a href="">Entreprise</a></li>
+            <li><a href="">Kids</a></li>
+            <li><a href="news.html">News</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+      </div>
+      <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <h1>Contactez-nous</h1>
+  </section>
+
+<!-- Page contact -->
+
+<section class="location">
+
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11613.824043057692!2d5.3701241!3d43.3047126!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12c9c13ddc0211b9%3A0xd1642ae4b32c4bc4!2sEcole%20La%20Plateforme%2C%20le%20Campus%20M%C3%A9diterran%C3%A9en%20du%20Num%C3%A9rique!5e0!3m2!1sfr!2sfr!4v1668692329914!5m2!1sfr!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</section>
+
+<section class="contactez-nous">
+    <div class="contact-col">
+            <div>
+                <i class="fa fa-home"></i>
+                <span>
+                    <h5>8 Rue d'Hozier</h5>
+                    <p>13002 Marseille</p>
+                </span>
+            </div>
+            <div>
+                <i class="fa fa-phone"></i>
+                <span>
+                    <h5>04 84 89 43 69</h5>
+                    <p>Lundi au Vendredi - 9h à 18h</p>
+                </span>
+            </div>
+            <div>
+                <i class="fa fa-envelope"></i>
+                <span>
+                    <h5>info@laplateforme.io</h5>
+                    <p>Contactez-nous par mail</p>
+                </span>
+            </div>
+
+    </div>
+    <div class="contact-col">
+        <form action="">
+            <input type="text" placeholder="Nom" required>
+            <input type="email" placeholder="Mail" required>
+            <input type="text" placeholder="Sujet" required>
+            <textarea rows="8" placeholder="Message"></textarea>
+            <button type="submit" class="hero-btn-commentaire">Envoyer</button>
+        </form>
+
+    </div>
+
+
+</section>
+
+<!-- Contact -->
+
+<section class="cta">
+  <h1>Contactez-nous !</h1>
+  <a href="" class="hero-btn">Contact</a>
+</section>
+
+<!------JavaScript toggle menu------>
+<script>
+
+var navLinks = document.getElementById("navLinks");
+
+function showMenu() {
+  navLinks.style.right = "0";
+}
+function hideMenu () {
+  navLinks.style.right = "-200px";
+}
+
+</script>
+
+</body>
+</html>
